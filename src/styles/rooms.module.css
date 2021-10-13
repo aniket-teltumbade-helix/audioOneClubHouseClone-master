@@ -1,0 +1,54 @@
+.roomsSection {
+  height: 100vh;
+  position: relative;
+  background: rgb(241, 239, 229);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 239, 229, 1) 0%,
+    rgba(241, 239, 229, 1) 15%,
+    rgba(241, 239, 229, 1) 100%
+  );
+  padding: 15px;
+  overflow: hidden;
+}
+.roomCard {
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 15px;
+}
+.roomsSection button {
+  background: #26ad60;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: none;
+  border: 0;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.1s ease-in;
+  opacity: 1;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.roomForm {
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  transition: all 0.1s ease-in;
+  width: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: -200px;
+  transition: all 0.1s ease-in;
+}
+.roomForm button {
+  position: static;
+  transform: translate(0px);
+  margin-top: 1em;
+}
